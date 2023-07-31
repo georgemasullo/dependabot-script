@@ -19,7 +19,7 @@ credentials = [
   }
 ]
 credentials << {
-  "type" => "maven-repository",
+  "type" => "maven_repository",
   "url" => ENV["URL"],
   "username" => ENV["USER"],
   "password" => ENV["PASS"] 
