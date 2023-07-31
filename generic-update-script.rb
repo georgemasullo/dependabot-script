@@ -18,6 +18,12 @@ credentials = [
     "password" => ENV["GITHUB_ACCESS_TOKEN"] # A GitHub access token with read access to public repos
   }
 ]
+credentials << {
+  "type" => "maven-repository",
+  "host" => ENV["URL"],
+  "username" => ENV["USER"],
+  "password" => ENV["PASS"] 
+}
 
 # Full name of the repo you want to create pull requests for.
 repo_name = ENV["PROJECT_PATH"] # namespace/project
