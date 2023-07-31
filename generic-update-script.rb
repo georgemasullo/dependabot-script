@@ -24,6 +24,7 @@ credentials << {
   "username" => ENV["USER"],
   "password" => ENV["PASS"] 
 }
+puts "#{credentials}"
 
 # Full name of the repo you want to create pull requests for.
 repo_name = ENV["PROJECT_PATH"] # namespace/project
