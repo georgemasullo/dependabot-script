@@ -22,7 +22,7 @@ credentials << {
   "type" => "maven_repository",
   "url" => ENV["URL"],
   "username" => ENV["USER"],
-  "password" => ENV["PASS"],
+  "password" => ENV["PASS"]
 }
 # Full name of the repo you want to create pull requests for.
 repo_name = ENV["PROJECT_PATH"] # namespace/project
